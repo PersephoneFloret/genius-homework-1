@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
-    <header class="header-container">
+    <header class="header">
       <nav>
         <a class="logo-link" href="./index.html">
           <img src="./images/logo.svg" alt="Логотип beautyzone" />
@@ -56,7 +56,7 @@
     </header>
     <main>
       <!--Hero Seection-->
-      <section>
+      <section class="hero-section">
         <p class="cosmetology-clinic">Косметологічна клініка</p>
         <h1 class="hero-title" lang="eng">Beaty Zone</h1>
         <button class="button" type="button">Замовити дзвінок</button>
@@ -69,16 +69,17 @@
         />
       </section>
       <!--Our offer section "перевтілюйтесь в BZ"-->
-      <section id="about-us-section">
-        <h2 class="section-title">
+      <section class="transformation-section" id="about-us-section">
+        <h2 class="section-title-bz section-title">
+          <!--Клас "section-title-bz" створений окремо для марджина у цій секції -->
           Перевтілюйтесь в <span class="accent">Beaty Zone!</span>
         </h2>
         <!--для стилізації другої частини заголовку додати акцент-->
-        <p>
+        <p class="transformation-section-text">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p>
+        <p class="transformation-section-text">
           B <b>Beauty Zone</b> ми гарантуємо найвищі стандарти якості та
           приємний сервіс. Наші косметологічні процедури та препарати допоможуть
           вам підтримувати свою красу та молодість. З нами краса назавжди!
@@ -91,13 +92,13 @@
         </div>
       </section>
       <!--Our advantages section Чому люди обирають нас-->
-      <section id="our-advantages-section">
+      <section class="advantages-section" id="our-advantages-section">
         <h2 class="section-title">
           Чому люди <span class="accent">обирають нас </span>
         </h2>
         <!--акцентом в спані задати колір другій частині заголовку-->
         <ul class="list">
-          <li>
+          <li class="advantages-list">
             <article>
               <svg class="advantages-icons" width="48" height="48">
                 <use href="./images/symbol-defs.svg#icon-flower-icon"></use>
@@ -108,7 +109,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li class="advantages-list">
             <article>
               <svg class="advantages-icons" width="48" height="48">
                 <use
@@ -121,7 +122,7 @@
               </p>
             </article>
           </li>
-          <li>
+          <li class="advantages-list">
             <article>
               <svg class="advantages-icons" width="48" height="48">
                 <use href="./images/symbol-defs.svg#icon-crown-icon"></use>
@@ -135,31 +136,33 @@
         </ul>
       </section>
       <!--Our procedures section-->
-      <section id="our-procedure-section">
-        <h2 class="section-title">
-          Наші <span class="accent">процедури</span>
-        </h2>
-        <!--акцентом в спані задати колір другій частині заголовку-->
-        <ul class="list">
-          <li>
-            <article>
-              <img src="./images/face-1.jpg" alt="Маска для обличчя" />
-            </article>
-          </li>
-          <li>
-            <article>
-              <img src="./images/face-2.jpg" alt="Ін'єкції" />
-            </article>
-          </li>
-          <li>
-            <article>
-              <img src="./images/face-3.jpg" alt="Очищення обличчя" />
-            </article>
-          </li>
-        </ul>
+      <section class="procedure-section" id="our-procedure-section">
+        <div class="container">
+          <h2 class="section-title">
+            Наші <span class="accent">процедури</span>
+          </h2>
+          <!--акцентом в спані задати колір другій частині заголовку-->
+          <ul class="list">
+            <li>
+              <article>
+                <img src="./images/face-1.jpg" alt="Маска для обличчя" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="./images/face-2.jpg" alt="Ін'єкції" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="./images/face-3.jpg" alt="Очищення обличчя" />
+              </article>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--Секція контакти-->
-      <section class="section" id="contact-section">
+      <section class="contact-section" class="section" id="contact-section">
         <h2 class="section-title">Як нас <span class="accent">знайти</span></h2>
         <!--Акцент-->
         <iframe

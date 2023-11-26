@@ -74,8 +74,10 @@ address {
   margin: 0 auto;
 }
 /*Header styles*/
-.header-container {
-  padding-left: 32px 99px;
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 99px;
 }
 .logo-link {
   display: block;
@@ -94,13 +96,18 @@ address {
 .cosmetology-clinic {
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 16px;
 }
+/*hero Section Styles*/
+
 /*Hero Titel Styles*/
 .hero-title {
   font-family: "Play";
   color: var(--color-brand-light);
   font-size: 140px;
   font-weight: 700;
+  line-height: 08;
+  margin-bottom: 40px;
 }
 .button {
   color: var(--color-primary-light);
@@ -110,6 +117,7 @@ address {
   border-radius: 32px;
   border: 2px solid var(--color-brand-light);
   padding: 16px 32px;
+  margin-bottom: 14px;
 }
 .button:hover,
 .button:focus {
@@ -119,23 +127,56 @@ address {
 .button-description {
   color: #4a4a4a;
   font-size: 12px;
+  line-height: 1.5;
 }
 /*Sections Styles*/
+.hero-section {
+  padding-top: 16.5px;
+  padding-bottom: 126.8px;
+  padding-left: 206px;
+}
+.transformation-section {
+  padding-top: 40px;
+  padding-bottom: 176px;
+  padding-left: 100px;
+}
+.transformation-section-text {
+  margin-bottom: 40px;
+}
+.advantages-section {
+  padding-bottom: 96px;
+}
+.advantages-list {
+  padding: 24px 32px;
+}
+.procedure-section {
+  padding-bottom: 96px;
+}
+.contact-section {
+  padding-bottom: 94px;
+}
+.section-title-bz {
+  margin-bottom: 40px;
+}
 .section-title {
   font-family: "Play";
   font-size: 64px;
   font-weight: 700;
+  margin-bottom: 48px;
 }
 .section-title .accent {
   color: var(--color-brand-light);
 }
+
 /*Footer styles*/
 .footer-section {
   background-color: var(--color-brand-dark);
+  padding: 56px 100px;
 }
 .footer-link {
   font-size: 16px;
   color: var(--color-primary-light);
+  margin-bottom: 16px;
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -144,6 +185,7 @@ address {
 .address-link {
   font-size: 16px;
   color: var(--color-primary-light);
+  margin-bottom: 16px;
 }
 .address-link:hover,
 .address-link:focus {
