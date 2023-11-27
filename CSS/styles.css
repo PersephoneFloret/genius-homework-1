@@ -48,6 +48,8 @@ a {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 /* Домінантний колір + шрифт сторінки, входить до базових стилів і задається безпосередньо до боді та наслідується нащадками*/
 body {
@@ -80,9 +82,7 @@ address {
   margin: 0 auto;
   padding: 0 24px;
 }
-.img {
-  display: block;
-}
+
 /*Header styles*/
 .header {
   padding-top: 32px;
@@ -96,23 +96,25 @@ address {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: 240px;
+  flex-grow: 1;
+  gap: 40px;
 }
 .nav-list {
   display: flex;
-  align-items: center;
   gap: 56px;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 40px;
 }
 .icons-list {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 38px;
 }
 
 .logo-link {
   display: block;
 }
-/*Hero section*/
 /*Header link styles */
 .header-link {
   font-size: 22px;
@@ -136,7 +138,8 @@ address {
   color: var(--color-brand-light);
   font-size: 140px;
   font-weight: 700;
-  line-height: 08;
+  line-height: 0.8;
+  width: 529px;
   margin-bottom: 40px;
 }
 .button {
